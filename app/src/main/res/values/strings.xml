@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UnivApp</string>
+    <string name="no_internet">No Internet! Please check your\ninternet connection.</string>
+    <string name="internet_back">Your Internet Connection is Back.</string>
+</resources>
