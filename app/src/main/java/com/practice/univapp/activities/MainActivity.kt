@@ -3,6 +3,7 @@ package com.practice.univapp.activities
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView.OnQueryTextListener
 import com.practice.univapp.R
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity(), UniversityContracts.View {
     private var wasConnected: Boolean? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        //enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
